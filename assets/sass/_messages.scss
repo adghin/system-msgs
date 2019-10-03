@@ -1,0 +1,33 @@
+.message__title {
+	font-size: $h2-font-size;
+}
+
+.message__description {
+	font-size: $paragraph-font-size;
+	font-weight: $paragraph-font-weight;
+	line-height: $paragraph-line-height;
+}
+
+.message--success {
+	@include msg-styles($success, $success-states);
+}
+
+.message--danger {
+	@include msg-styles($danger, $danger-states);
+}
+
+.message--warning {
+	@include msg-styles($warning, $warning-states);
+}
+
+.message__btn--success {
+	@include btn-styles($success, $success-states);
+}
+
+.message__btn--danger {
+	@include btn-styles($danger, $danger-states);
+}
+
+.message__btn--warning {
+	@include btn-styles($warning, $warning-states);
+}

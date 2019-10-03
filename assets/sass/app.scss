@@ -1,0 +1,15 @@
+// core
+@import 'variables';
+@import 'mixins/buttons';
+@import 'mixins/messages';
+
+@import 'messages';
+
+
+// everything under here is for demo purposes
+body {
+	padding: 200px;
+	div {
+		display: inline-block;
+	}
+}

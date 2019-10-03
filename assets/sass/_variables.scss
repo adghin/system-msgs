@@ -1,0 +1,44 @@
+// color
+$success:       #00f2c3 !default;
+$warning:       #ff8d72 !default;
+$danger:        #fd5d93 !default;
+
+// gradient
+$success-states:       #0098f0 !default;
+$warning-states:       #ff6491 !default;
+$danger-states:        #ec250d !default;
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+$font-family-base:            'Nunito', sans-serif !default;
+
+$font-size-dash:              .875rem !default;
+
+$font-size-base:              $font-size-dash !default; // Assumes the browser default, typically `16px`
+
+$h1-font-size:                $font-size-base * 2.35714285 !default;  //2.1875rem
+$h2-font-size:                $font-size-base * 1.9285714 !default;
+$h3-font-size:                $font-size-base * 1.642857 !default;
+$h4-font-size:                $font-size-base * 1.2142857 !default;
+$h5-font-size:                $font-size-base * 0.9285714 !default;
+$h6-font-size:                $font-size-base * 0.8571428 !default;
+
+$paragraph-font-size:         1rem !default;
+$paragraph-font-weight:       500 !default;
+$paragraph-line-height:       1.7 !default;
+
+$line-height:                 1.35em         !default;
+
+//buttons
+$btn-padding-y:               16px !default;
+$btn-padding-x:               40px !default;
+$btn-margin-y:			  15px !default;
+$btn-line-height:             $line-height !default;
+$btn-border-radius:           1rem !default;
+
+$btn-font-size:            1em !default;
+$btn-font-weight:             1200 !default;
+$btn-text-transform:          uppercase !default;
+$btn-box-shadow:              0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+$btn-hover-box-shadow:        0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+$btn-focus-box-shadow:        $btn-hover-box-shadow !default;

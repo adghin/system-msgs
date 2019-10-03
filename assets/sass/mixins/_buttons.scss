@@ -1,0 +1,26 @@
+@mixin btn-styles($color, $states-color) {
+	padding: $btn-padding-y $btn-padding-x;
+	margin: $btn-margin-y 0;
+	line-height: $btn-line-height;
+	border: none;
+	border-radius: $btn-border-radius;
+	font-size: $btn-font-size;
+	cursor: pointer;
+	color: $color;
+	background-color: #ffffff;
+	transition: all 0.15s ease;
+	box-shadow: none;
+  
+	&:hover,
+	&:focus,
+	&:active,
+	&.active,
+	&:active:focus,
+	&:active:hover,
+	&.active:focus,
+	&.active:hover {
+		background-color: $states-color !important;
+		color: #ffffff;
+		box-shadow: none;
+	}
+}
